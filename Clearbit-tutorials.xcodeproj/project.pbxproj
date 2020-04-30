@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EF25681245AEFB000FE820E /* Screenshot.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7EF25680245AEFB000FE820E /* Screenshot.gif */; };
+		7EFCA81C2440867C00F96C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFCA81B2440867C00F96C4F /* AppDelegate.swift */; };
+		7EFCA81E2440867C00F96C4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFCA81D2440867C00F96C4F /* SceneDelegate.swift */; };
+		7EFCA8202440867C00F96C4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFCA81F2440867C00F96C4F /* ViewController.swift */; };
+		7EFCA8232440867C00F96C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFCA8212440867C00F96C4F /* Main.storyboard */; };
+		7EFCA8252440868000F96C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EFCA8242440868000F96C4F /* Assets.xcassets */; };
+		7EFCA8282440868000F96C4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFCA8262440868000F96C4F /* LaunchScreen.storyboard */; };
+		7EFCA8332440868000F96C4F /* Clearbit_tutorialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFCA8322440868000F96C4F /* Clearbit_tutorialsTests.swift */; };
+		7EFCA83E2440868000F96C4F /* Clearbit_tutorialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFCA83D2440868000F96C4F /* Clearbit_tutorialsUITests.swift */; };
+		7EFCA84C2440A15B00F96C4F /* CustomSearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFCA84B2440A15B00F96C4F /* CustomSearchTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EFCA82F2440868000F96C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EFCA8102440867C00F96C4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EFCA8172440867C00F96C4F;
+			remoteInfo = "Clearbit-tutorials";
+		};
+		7EFCA83A2440868000F96C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EFCA8102440867C00F96C4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EFCA8172440867C00F96C4F;
+			remoteInfo = "Clearbit-tutorials";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EF25680245AEFB000FE820E /* Screenshot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Screenshot.gif; sourceTree = "<group>"; };
+		7EFCA8182440867C00F96C4F /* Clearbit-tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clearbit-tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFCA81B2440867C00F96C4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EFCA81D2440867C00F96C4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7EFCA81F2440867C00F96C4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EFCA8222440867C00F96C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EFCA8242440868000F96C4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EFCA8272440868000F96C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EFCA8292440868000F96C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFCA82E2440868000F96C4F /* Clearbit-tutorialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clearbit-tutorialsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFCA8322440868000F96C4F /* Clearbit_tutorialsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clearbit_tutorialsTests.swift; sourceTree = "<group>"; };
+		7EFCA8342440868000F96C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFCA8392440868000F96C4F /* Clearbit-tutorialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clearbit-tutorialsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFCA83D2440868000F96C4F /* Clearbit_tutorialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clearbit_tutorialsUITests.swift; sourceTree = "<group>"; };
+		7EFCA83F2440868000F96C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFCA84B2440A15B00F96C4F /* CustomSearchTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EFCA8152440867C00F96C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFCA82B2440868000F96C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFCA8362440868000F96C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EF2567F245AEF7A00FE820E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7EF25680245AEFB000FE820E /* Screenshot.gif */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7EFCA80F2440867C00F96C4F = {
+			isa = PBXGroup;
+			children = (
+				7EFCA81A2440867C00F96C4F /* Clearbit-tutorials */,
+				7EF2567F245AEF7A00FE820E /* Resource */,
+				7EFCA8312440868000F96C4F /* Clearbit-tutorialsTests */,
+				7EFCA83C2440868000F96C4F /* Clearbit-tutorialsUITests */,
+				7EFCA8192440867C00F96C4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EFCA8192440867C00F96C4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EFCA8182440867C00F96C4F /* Clearbit-tutorials.app */,
+				7EFCA82E2440868000F96C4F /* Clearbit-tutorialsTests.xctest */,
+				7EFCA8392440868000F96C4F /* Clearbit-tutorialsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EFCA81A2440867C00F96C4F /* Clearbit-tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				7EFCA84B2440A15B00F96C4F /* CustomSearchTextField.swift */,
+				7EFCA81B2440867C00F96C4F /* AppDelegate.swift */,
+				7EFCA81D2440867C00F96C4F /* SceneDelegate.swift */,
+				7EFCA81F2440867C00F96C4F /* ViewController.swift */,
+				7EFCA8212440867C00F96C4F /* Main.storyboard */,
+				7EFCA8242440868000F96C4F /* Assets.xcassets */,
+				7EFCA8262440868000F96C4F /* LaunchScreen.storyboard */,
+				7EFCA8292440868000F96C4F /* Info.plist */,
+			);
+			path = "Clearbit-tutorials";
+			sourceTree = "<group>";
+		};
+		7EFCA8312440868000F96C4F /* Clearbit-tutorialsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EFCA8322440868000F96C4F /* Clearbit_tutorialsTests.swift */,
+				7EFCA8342440868000F96C4F /* Info.plist */,
+			);
+			path = "Clearbit-tutorialsTests";
+			sourceTree = "<group>";
+		};
+		7EFCA83C2440868000F96C4F /* Clearbit-tutorialsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EFCA83D2440868000F96C4F /* Clearbit_tutorialsUITests.swift */,
+				7EFCA83F2440868000F96C4F /* Info.plist */,
+			);
+			path = "Clearbit-tutorialsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EFCA8172440867C00F96C4F /* Clearbit-tutorials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFCA8422440868000F96C4F /* Build configuration list for PBXNativeTarget "Clearbit-tutorials" */;
+			buildPhases = (
+				7EFCA8142440867C00F96C4F /* Sources */,
+				7EFCA8152440867C00F96C4F /* Frameworks */,
+				7EFCA8162440867C00F96C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clearbit-tutorials";
+			productName = "Clearbit-tutorials";
+			productReference = 7EFCA8182440867C00F96C4F /* Clearbit-tutorials.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EFCA82D2440868000F96C4F /* Clearbit-tutorialsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFCA8452440868000F96C4F /* Build configuration list for PBXNativeTarget "Clearbit-tutorialsTests" */;
+			buildPhases = (
+				7EFCA82A2440868000F96C4F /* Sources */,
+				7EFCA82B2440868000F96C4F /* Frameworks */,
+				7EFCA82C2440868000F96C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EFCA8302440868000F96C4F /* PBXTargetDependency */,
+			);
+			name = "Clearbit-tutorialsTests";
+			productName = "Clearbit-tutorialsTests";
+			productReference = 7EFCA82E2440868000F96C4F /* Clearbit-tutorialsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EFCA8382440868000F96C4F /* Clearbit-tutorialsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFCA8482440868000F96C4F /* Build configuration list for PBXNativeTarget "Clearbit-tutorialsUITests" */;
+			buildPhases = (
+				7EFCA8352440868000F96C4F /* Sources */,
+				7EFCA8362440868000F96C4F /* Frameworks */,
+				7EFCA8372440868000F96C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EFCA83B2440868000F96C4F /* PBXTargetDependency */,
+			);
+			name = "Clearbit-tutorialsUITests";
+			productName = "Clearbit-tutorialsUITests";
+			productReference = 7EFCA8392440868000F96C4F /* Clearbit-tutorialsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EFCA8102440867C00F96C4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Rakesh Kumar";
+				TargetAttributes = {
+					7EFCA8172440867C00F96C4F = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					7EFCA82D2440868000F96C4F = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 7EFCA8172440867C00F96C4F;
+					};
+					7EFCA8382440868000F96C4F = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 7EFCA8172440867C00F96C4F;
+					};
+				};
+			};
+			buildConfigurationList = 7EFCA8132440867C00F96C4F /* Build configuration list for PBXProject "Clearbit-tutorials" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EFCA80F2440867C00F96C4F;
+			productRefGroup = 7EFCA8192440867C00F96C4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EFCA8172440867C00F96C4F /* Clearbit-tutorials */,
+				7EFCA82D2440868000F96C4F /* Clearbit-tutorialsTests */,
+				7EFCA8382440868000F96C4F /* Clearbit-tutorialsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EFCA8162440867C00F96C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF25681245AEFB000FE820E /* Screenshot.gif in Resources */,
+				7EFCA8282440868000F96C4F /* LaunchScreen.storyboard in Resources */,
+				7EFCA8252440868000F96C4F /* Assets.xcassets in Resources */,
+				7EFCA8232440867C00F96C4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFCA82C2440868000F96C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFCA8372440868000F96C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EFCA8142440867C00F96C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFCA84C2440A15B00F96C4F /* CustomSearchTextField.swift in Sources */,
+				7EFCA8202440867C00F96C4F /* ViewController.swift in Sources */,
+				7EFCA81C2440867C00F96C4F /* AppDelegate.swift in Sources */,
+				7EFCA81E2440867C00F96C4F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFCA82A2440868000F96C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFCA8332440868000F96C4F /* Clearbit_tutorialsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFCA8352440868000F96C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFCA83E2440868000F96C4F /* Clearbit_tutorialsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EFCA8302440868000F96C4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EFCA8172440867C00F96C4F /* Clearbit-tutorials */;
+			targetProxy = 7EFCA82F2440868000F96C4F /* PBXContainerItemProxy */;
+		};
+		7EFCA83B2440868000F96C4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EFCA8172440867C00F96C4F /* Clearbit-tutorials */;
+			targetProxy = 7EFCA83A2440868000F96C4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EFCA8212440867C00F96C4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EFCA8222440867C00F96C4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EFCA8262440868000F96C4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EFCA8272440868000F96C4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EFCA8402440868000F96C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EFCA8412440868000F96C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EFCA8432440868000F96C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Clearbit-tutorials/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wedefineapps.wescan.Clearbit-tutorials";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EFCA8442440868000F96C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Clearbit-tutorials/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wedefineapps.wescan.Clearbit-tutorials";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7EFCA8462440868000F96C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Clearbit-tutorialsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wedefineapps.wescan.Clearbit-tutorialsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clearbit-tutorials.app/Clearbit-tutorials";
+			};
+			name = Debug;
+		};
+		7EFCA8472440868000F96C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Clearbit-tutorialsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wedefineapps.wescan.Clearbit-tutorialsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clearbit-tutorials.app/Clearbit-tutorials";
+			};
+			name = Release;
+		};
+		7EFCA8492440868000F96C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Clearbit-tutorialsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wedefineapps.wescan.Clearbit-tutorialsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Clearbit-tutorials";
+			};
+			name = Debug;
+		};
+		7EFCA84A2440868000F96C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Clearbit-tutorialsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wedefineapps.wescan.Clearbit-tutorialsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Clearbit-tutorials";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EFCA8132440867C00F96C4F /* Build configuration list for PBXProject "Clearbit-tutorials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFCA8402440868000F96C4F /* Debug */,
+				7EFCA8412440868000F96C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFCA8422440868000F96C4F /* Build configuration list for PBXNativeTarget "Clearbit-tutorials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFCA8432440868000F96C4F /* Debug */,
+				7EFCA8442440868000F96C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFCA8452440868000F96C4F /* Build configuration list for PBXNativeTarget "Clearbit-tutorialsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFCA8462440868000F96C4F /* Debug */,
+				7EFCA8472440868000F96C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFCA8482440868000F96C4F /* Build configuration list for PBXNativeTarget "Clearbit-tutorialsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFCA8492440868000F96C4F /* Debug */,
+				7EFCA84A2440868000F96C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EFCA8102440867C00F96C4F /* Project object */;
+}
