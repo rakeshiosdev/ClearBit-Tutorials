@@ -3,4 +3,4 @@ To search compant name with that's logo
 
 #Screenshot
 
-<img src="ExpandableTableView/ExpandableTableView/ScreenShot/screenshot.gif">
+<img src="Resource/Screenshot.gif">
